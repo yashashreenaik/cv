@@ -1,0 +1,41 @@
+body {
+  background-color: #F8F1F1;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #E8EAE6;
+  border-width: 5px;
+  width: 5%;
+  -webkit-animation: 10s linear 0s infinite alternate move_eye;
+  animation: 10s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye {
+  from {
+    margin-left: -20%;
+  }
+
+  to {
+    margin-left: 100%;
+  }
+}
+
+@keyframes move_eye {
+  from {
+    margin-left: -20%;
+  }
+
+  to {
+    margin-left: 100%;
+  }
+}
+
+h1 {
+  color: #68b0ab;
+}
+
+h3 {
+  color: #68b0ab;
+}
